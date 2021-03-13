@@ -19,9 +19,20 @@ html {
 }
 
 .header {
-    background-color: #9933cc;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
+    text-align: center;
     padding: 15px;
+}
+
+.menu {
+    overflow: hidden;
+}
+.menu a {
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    color: #ffffff;
 }
 
 .menu ul {
