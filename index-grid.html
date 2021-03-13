@@ -38,16 +38,17 @@
 
                 <!-- This is the section's header. It contains the heading and navigation links for within the section -->
                 <header>
-                    <h2>Getting Started</h2>        
+                    <h2>Getting Started</h2>     
+                    <!-- ARIA: the landmark role "navigation" is added here as the element contains page navigation -->
+                    <nav role="navigation">
+                        <ul>
+                            <li><a href="#introduction">Introduction</a></li>
+                            <li><a href="#instructions">Instructions</a></li>
+                        </ul>
+                    </nav>   
                 </header>
+
                 
-                <!-- ARIA: the landmark role "navigation" is added here as the element contains page navigation -->
-                <nav role="navigation">
-                    <ul>
-                        <li><a href="#introduction">Introduction</a></li>
-                        <li><a href="#instructions">Instructions</a></li>
-                    </ul>
-                </nav>
 
                 <!-- The <article> element can be used to enclose content that still makes sense on its own and is therefore "reusable" -->
                 <article id="introduction">
