@@ -9,17 +9,27 @@
     <link href="css/styles.css" rel="stylesheet" media="all">
 </head>
 <body>
+    <!-- The page header typically contains items such as your site heading, logo and possibly the main site navigation -->
+    <!-- ARIA: the landmark role "banner" is set as it is the prime heading or internal title of the page -->
+    <header role="banner" class="sidenav">
 
-    <div class="sidenav">
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-        <a href="#">Link</a>
-      </div>
-      
-      <div class="content">
+        <h1>Responsive Semantic <abbr title="HyperText Markup Language 5">HTML5</abbr> Template</h1>
+
+        <!-- ARIA: the landmark role "navigation" is added here as the element contains site navigation
+        NOTE: The <nav> element does not have to be contained within a <header> element, even though the two examples on this page are. -->
+        <nav role="navigation">
+            <!-- This can contain your site navigation either in an unordered list or even a paragraph that contains links that allow users to navigate your site -->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+
+    <div class="content">
         <h2>CSS Template</h2>
         <p>A full-height, fixed sidenav and content.</p>
-      </div>
+    </div>
 
 </body>
 </html>
